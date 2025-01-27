@@ -6,7 +6,7 @@ def savienot():
 
 def top():
   SQL = savienot()
-  SQL.execute("SELECT * FROM rezultati")
+  SQL.execute("SELECT * FROM rezultati")g
   rezultati = SQL.fetchall()
   dati = []
   for rez in rezultati:
